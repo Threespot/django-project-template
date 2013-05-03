@@ -2,7 +2,7 @@ from .base import *
 
 
 """
-This is the settings file that you use when you’re working on the project locally.
+This is the settings file that you use when you're working on the project locally.
 Local development-specific settings include DEBUG mode, log level, and activation
 of developer tools like django-debug-toolbar.
 """
