@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# This file should *not* be versioned and is only placed here as a convinience!
+
+# This file is where sensitive application credentials are stored (these should not
+# be versioned). This includes: DB connection credentials, the project's secret key
+# and any sensitive API keys.
+# You can call this shell script from within your virtualenv's bin/active script
+# with the following line: source /path/to/clients.threespot.env
+
+
+
+# This is used to provide cryptographic signing for Django, and should not be shared.
+SECRET_KEY = '{{ secret_key }}'
+# Database connection settings
+DB_USER="django"
+DB_PASSWORD="django"
