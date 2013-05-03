@@ -11,7 +11,7 @@
 
 
 # This is used to provide cryptographic signing for Django, and should not be shared.
-SECRET_KEY = '{{ secret_key }}'
+SECRET_KEY="{{ secret_key }}"
 # Database connection settings
 DB_USER="django"
 DB_PASSWORD="django"
