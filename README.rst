@@ -25,6 +25,11 @@ The following will help you get a development environment up and running::
     ?> pip install -r requirements/base.txt
     ?> pip install -r /requirements/development.txt
     ?> ./manage.py syncdb
-    ?> ./manage.py runserver
+    ?> ./manage.py runserver --settings={{ project_name }}.settings.dev
+
+
+You can avoid having to pass the ``--settings={{ project_name }}.settings.dev`` argument to management commands by setting the ``DJANGO_SETTINGS_MODULE`` environmental variable. Just add the following line to your virtualenv's ``bin/activate`` script::
+
+    export DJANGO_SETTINGS_MODULE="{{ project_name }}.settings.dev"
 
 `Read more <http://apps.threespot.com/Threespot-Django-Manual/>`_ about how Threespot does Django.
