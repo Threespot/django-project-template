@@ -23,7 +23,7 @@ The following will help you get a development environment up and running::
     ?> git clone git@github.com:Threespot/{{ project_name }}.git
     ?> cd {{ project_name }}
     ?> pip install -r requirements/base.txt
-    ?> pip install -r /requirements/development.txt
+    ?> pip install -r requirements/development.txt
     ?> ./manage.py syncdb --settings={{ project_name }}.settings.dev
     ?> ./manage.py runserver --settings={{ project_name }}.settings.dev
 
