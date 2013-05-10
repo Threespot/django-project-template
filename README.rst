@@ -8,7 +8,7 @@ Locations of important files:
 
 * ``project_name/`` Django project and apps
 * ``docs/`` - project documentation (Sphinx)
-* ``requirements/ - project dependencies
+* ``requirements/`` - project dependencies
 * ``static/`` - static media
 * ``templates/`` - project HTML templates
 
